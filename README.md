@@ -1,7 +1,7 @@
 #  Simulador de Editor de Texto con Undo/Redo en Java
-### Autor:Valentina Gaviria Bedoya
-### Materia:Estructura de Datos 
-### Profesor:Steven Zuluaga
+### Autor: Valentina Gaviria Bedoya
+### Materia: Estructura de Datos 
+### Profesor: Steven Zuluaga
 
 Este proyecto es un **editor de texto básico** que funciona en la consola. Te permite **escribir**, **deshacer** (Undo) y **rehacer** (Redo) cambios, usando pilas (stacks) hechas manualmente en Java.
 
