@@ -3,7 +3,9 @@
 ### Materia: Estructura de Datos 
 ### Profesor: Steven Zuluaga
 
-Este proyecto es un **editor de texto básico** que funciona en la consola. Te permite **escribir**, **deshacer** (Undo) y **rehacer** (Redo) cambios, usando pilas (stacks) hechas manualmente en Java.
+## Objetivo:
+
+Desarrollar  un **editor de texto básico** en consola que permita al usuario **escribir**, **deshacer** (Undo) y **rehacer** (Redo) cambios,  utilizando pilas implementadas manualmente en Java para gestionar el historial de acciones.
 
 ##  ¿Qué contiene el proyecto?
 
