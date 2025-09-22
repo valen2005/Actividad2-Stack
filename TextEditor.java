@@ -18,7 +18,7 @@ public class TextEditor {
         undoStack = new CustomStack<>();
         redoStack = new CustomStack<>();
         currentText = new StringBuilder();
-        undoStack.push(""); // Estado inicial vacío
+        undoStack.push(""); 
     }
 
     /**
@@ -37,7 +37,7 @@ public class TextEditor {
      * El estado deshecho se mueve a la pila de rehacer.
      */
     public void undo() {
-        if (undoStack.size() > 1) { // Asegurarse de que siempre haya al menos un estado (el actual)
+        if (undoStack.size() > 1) { 
             String undoneState = undoStack.pop();
             redoStack.push(undoneState);
             currentText = new StringBuilder(undoStack.peek());
@@ -96,7 +96,7 @@ public class TextEditor {
         do {
             editor.displayMenu();
             option = scanner.nextInt();
-            scanner.nextLine(); // Consumir el salto de línea
+            scanner.nextLine(); 
 
             switch (option) {
                 case 1:
