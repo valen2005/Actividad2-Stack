@@ -99,3 +99,4 @@ Texto actual: Holamundo
 Seleccione una opción: 5
 Saliendo del editor.
 ```
+![Imagen de el programa funcionando](2025-09-21-20-13-04.png)
